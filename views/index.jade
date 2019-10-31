@@ -1,5 +1,17 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+    .main-content.
+        <div class="container-fluid pt-5 no-padding">
+            <div class="row my-5 px-5 video-container align-items-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="youtube" src="https://www.youtube.com/embed/MtZfjD8v2Dg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="pt-5 no-padding">
+            <img class="img-fluid" style="width: 100%" src="images/Ribbon.png" alt=" ">
+        </div>
+        <div class="pt-5 no-padding">
+            <img class="img-fluid" style="width: 100%" src="images/Book.png" alt=" ">
+        </div>
